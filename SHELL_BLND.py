@@ -92,7 +92,23 @@ RH = """
 ╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝                      
 
 """
+CorrectUsername = "BLND"
+CorrectPassword = "MASUD"
 
+loop = 'true'
+while (loop == 'true'):
+    username = raw_input("\033[1;96m[☆] \x1b[0;31mUSERNAME TOOLAKA Bnusa\x1b[1;96m>>>> ")
+    if (username == CorrectUsername):
+    	password = raw_input("\033[1;96m[☆] \x1b[0;31mPASSWORD TOOLAKA Bnusa\x1b[1;96m>>>> ")
+        if (password == CorrectPassword):
+            print "Logged in successfully as " + username
+            loop = 'false'
+        else:
+            print("Halaya")
+            os.system('xdg-open https://t.me/@SHELL_BLND')
+    else:
+        print ("Halaya")
+        os.system('xdg-open https://t.me/SHELL_BLND')
 print(RH)
 def login():
 	os.system('clear')
