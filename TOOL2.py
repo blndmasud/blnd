@@ -94,10 +94,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print("Halaya")
-            os.system('xdg-open https://t.me/@SHEX_CRACKER')
+            os.system('xdg-open https://t.me/@SHELL_BLND')
     else:
         print ("Halaya")
-        os.system('xdg-open https://t.me/SHEX_CRACKER')
+        os.system('xdg-open https://t.me/SHELL_BLND')
 
 def login():
 	os.system('clear')
