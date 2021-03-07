@@ -92,8 +92,8 @@ RH = """
 ╚═════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝                      
 
 """
-CorrectUsername = "BLND"
-CorrectPassword = "MASUD"
+CorrectUsername = "prifisor"
+CorrectPassword = "blnd"
 
 loop = 'true'
 while (loop == 'true'):
